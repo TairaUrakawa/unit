@@ -1,0 +1,14 @@
+{
+    "short_name": "単位格子",
+    "name": "単位格子ビューア",
+    "icons": [
+      {
+        "src": "TemplateData/favicon.ico",
+        "sizes": "256x256",
+        "type": "image/vnd.microsoft.icon"
+      }
+    ],
+    "start_url": "/index.html",
+    "display": "minimal-ui",
+    "background_color": "#000000"
+  }
