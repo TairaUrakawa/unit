@@ -1,4 +1,4 @@
-var CACHE_NAME = 'chache';
+var CACHE_NAME = 'mychache';
 var urlsToCache = [
     "/",
   "/index.html",
