@@ -9,6 +9,7 @@
       }
     ],
     "start_url": "/index.html",
-    "display": "minimal-ui",
+    "display": "standalones",
+    "theme_color": "#000000",
     "background_color": "#000000"
   }
