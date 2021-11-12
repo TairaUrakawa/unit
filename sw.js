@@ -25,12 +25,6 @@ const urlsToCache = [
   "TemplateData/webgl-logo.png",
 ];
 
-window.addEventListener('load', function() {
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/sw.js');
-    }
-});
-
 //installイベントの場合
 //前述のファイルパスをすべてキャッシュに登録する
 self.addEventListener('install', function(event) {
