@@ -1,7 +1,5 @@
-'use strict';
-
-const CACHE_NAME = 'chache';
-const urlsToCache = [
+var CACHE_NAME = 'chache';
+var urlsToCache = [
     "/",
   "/index.html",
   "/index.php",
