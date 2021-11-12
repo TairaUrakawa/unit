@@ -2,6 +2,7 @@
 
 const CACHE_NAME = 'chache';
 const urlsToCache = [
+    "/",
   "/index.html",
   "/index.php",
   "/manifest.json",
