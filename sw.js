@@ -11,6 +11,7 @@ var urlsToCache = [
     "Build/Structure-WebGL.loader.js",
     "Build/Structure-WebGL.wasm.unityweb",
     "TemplateData/style.css",
+    "TemplateData/maskable_icon.png",
     "TemplateData/android-chrome-192x192.png",
     "TemplateData/android-chrome-512x512.png",
     "TemplateData/apple-touch-icon.png",
