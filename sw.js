@@ -11,7 +11,8 @@ var urlsToCache = [
     "Build/Structure-WebGL.loader.js",
     "Build/Structure-WebGL.wasm.unityweb",
     "TemplateData/style.css",
-    "TemplateData/maskable_icon.png",
+    "TemplateData/maskable_icon_x192.png",
+    "TemplateData/maskable_icon_x512.png",
     "TemplateData/android-chrome-192x192.png",
     "TemplateData/android-chrome-512x512.png",
     "TemplateData/apple-touch-icon.png",
@@ -29,7 +30,7 @@ var urlsToCache = [
 //前述のファイルパスをすべてキャッシュに登録する
 self.addEventListener('install', function(event) {
     event.waitUntil(caches.open(CACHE_NAME).then(function(cache) {
-        return cache.addAll(urlsToCache.map(url => new Request(url, {credentials: 'same-origin'})));
+        return cache.addAll(urlsToCache);
     }));
 });
 
