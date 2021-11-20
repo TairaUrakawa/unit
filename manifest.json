@@ -1,7 +1,6 @@
 {
     "short_name": "単位格子",
     "name": "単位格子ビューア",
-    "description": "インストールしてオフラインでも使えます",
     "icons": [
       {
         "src": "TemplateData/android-chrome-192x192.png",
